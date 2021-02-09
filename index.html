@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="This site is made of free psd template">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="keywords" content="Psd to Html,Web design,Front End Development">
+    <!-- Favicon goes here -->
+    <!-- <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon"> -->
+    <!-- Styles Goes here -->
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <!-- Font awesome  -->
+      <link rel="stylesheet" href="css/fontawesome/css/all.min.css">
+      <!-- Own style -->
+      <link rel="stylesheet" href="style.css">
+      <!-- Responsive Styles -->
+      <link rel="stylesheet" href="css/reponsive.css">
+    <title>Portfolio | Front End Developer</title>
+</head>
+<body>
+    <!-- Hamburger Menu -->
+    <div class="mobile__menu">
+      <ul id="sideNav" class="sideNav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><i class="fas fa-times"></i></a>
+        <li class="sideNav__item"><a href="index.html">Home</a></li>
+        <li class="sideNav__item"><a href="#about">Work</a></li>
+        <li class="sideNav__item"><a href="#service">Blog</a></li>
+    </ul>
+    </div>
+    <!-- Main Navigation -->
+    <nav class="navigation">
+      <div class="container relative">
+        <div class="row align-items-center">
+          <div class="col-md-3">
+            <span class="navigation__logo">Portfolio</span>
+          </div>
+          <div class="col-md-7 ml-auto">
+            <ul class="navigation__list flex">
+              <li><a href="">Home</a></li>
+              <li><a href="">Work</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a class="btn" href="">Hire me!</a></li>
+            </ul>
+          </div>
+        </div>
+        <a onclick="openNav()" class="navigation__bars" href="javascript:void(0)"><i class="fas fa-bars"></i></a>
+      </div>
+    </nav>
+    <!-- Header Part -->
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <h2 class="header__person">Hello, I'm Mehedi</h2>
+          <h1 class="header__heading">Expert in Web Design & Development</h1>
+          <!-- <p class="header__paragraph">Currently available for select projects,
+             collaborations and consulting.</p> -->
+          <a href="" class="btn btn--primary">See my work</a>
+        </div>
+      </div>
+    </header>
+    <!-- Service Part -->
+    <section class="service">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-header__heading">Services</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="serviceCard">
+              <div class="serviceCard__icon">
+                <i class="far fa-gem"></i>
+              </div>
+              <h4 class="serviceCard__heading">Web Design</h4>
+              <p class="serviceCard__paragraph">Well we're movin' on up to the east side. To a deluxe apartment in the sky.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="serviceCard">
+              <div class="serviceCard__icon">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h4 class="serviceCard__heading">Web Development</h4>
+              <p class="serviceCard__paragraph">Well we're movin' on up to the east side. To a deluxe apartment in the sky.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="serviceCard">
+              <div class="serviceCard__icon">
+                <i class="fas fa-magic"></i>
+              </div>
+              <h4 class="serviceCard__heading">Responsive</h4>
+              <p class="serviceCard__paragraph">Well we're movin' on up to the east side. To a deluxe apartment in the sky.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Part  -->
+    <section class="portfolio bg--primary">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-header__heading">Portfolio</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row mg-b--3">
+          <div class="col-md-4">
+            <a href="https://firefly-corporate.netlify.app/" target="blank">
+              <div class="portfolioCard">
+                <img src="img/portfolio-1.jpg" alt="Portfolio 1" class="portfolioCard__img">
+                <div class="portfolioCard__overlay">
+                  <div class="portfolioCard__content">
+                    <p class="portfolioCard__paragraph">Branding</p>
+                    <h4 class="portfolioCard__heading">Home Decoration</h4>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolioCard">
+              <img src="img/portfolio-2.jpg" alt="Portfolio 2" class="portfolioCard__img">
+              <div class="portfolioCard__overlay">
+                <div class="portfolioCard__content">
+                  <p class="portfolioCard__paragraph">Branding</p>
+                  <h4 class="portfolioCard__heading">Home Decoration</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolioCard">
+              <img src="img/portfolio-3.jpg" alt="Portfolio 3" class="portfolioCard__img">
+              <div class="portfolioCard__overlay">
+                <div class="portfolioCard__content">
+                  <p class="portfolioCard__paragraph">Branding</p>
+                  <h4 class="portfolioCard__heading">Home Decoration</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="portfolioCard">
+              <img src="img/portfolio-2.jpg" alt="Portfolio 4" class="portfolioCard__img">
+              <div class="portfolioCard__overlay">
+                <div class="portfolioCard__content">
+                  <p class="portfolioCard__paragraph">Branding</p>
+                  <h4 class="portfolioCard__heading">Home Decoration</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolioCard">
+              <img src="img/portfolio-3.jpg" alt="Portfolio 5" class="portfolioCard__img">
+              <div class="portfolioCard__overlay">
+                <div class="portfolioCard__content">
+                  <p class="portfolioCard__paragraph">Branding</p>
+                  <h4 class="portfolioCard__heading">Home Decoration</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="portfolioCard">
+              <img src="img/portfolio-1.jpg" alt="Portfolio 6" class="portfolioCard__img">
+              <div class="portfolioCard__overlay">
+                <div class="portfolioCard__content">
+                  <p class="portfolioCard__paragraph">Branding</p>
+                  <h4 class="portfolioCard__heading">Home Decoration</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Part -->
+    <section class="contact">
+      <div class="container">
+        <div class="contact__content">
+          <div class="row align-items-center justify-content-between">
+            <div class="col-md-8">
+                <h3 class="contact__heading">Make It Awesome</h3>
+                <p class="contact__paragraph">There's nothing we wont try. Never heard the word impossible.
+                   This time there's no stopping us. The year is 1987 and NASA launches the last of Americas
+                    deep space probes.</p>
+            </div>
+            <div class="col-md-3 d-flex justify-content-end">
+              <a href="" class="btn">Hire Me!</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial Part -->
+    <section class="testimonial bg--primary">
+      <div class="container">
+        <div class="section-header">
+          <h3 class="section-header__heading testimonial__heading">What clients feedback about me</h3>
+        </div>
+      </div>
+      <div class="container">
+        <div class="col-10 mg-center">
+          <div class="testimonialCard">
+            <div class="testmonialPerson">
+              <div class="testimonialPerson__img">
+                <img src="img/client-1.jpg" alt="Panuel Halder">
+              </div>
+              <h5 class="testimonialPerson__name">Panuel Halder</h5>
+              <p class="testimonialPerson__job">Wordpress Developer</p>
+            </div>
+            <div class="testiomonialPerson__quotes">
+              <p>Fleeing from the Cylon tyranny the last Battlestar – Galactica - leads a rag-tag fugitive fleet on a lonely quest - a shining planet known as Earth? Texas tea.Its mission - to explore strange new worlds to seek out new life and new civilizations to boldly go where no man has gone before. Doin' it our way.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Part -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-sm-4 align-self-end">
+            <div class="copyright__content">
+              <p class="copyright__text">Copyright &copy; 2021.</p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="social__list flex justify-content-end">
+              <div class="social__icon">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+              </div>
+              <div class="social__icon">
+                <a href=""><i class="fab fa-twitter"></i></a>
+              </div>
+              <div class="social__icon">
+                <a href=""><i class="fab fa-instagram"></i></a>
+              </div>
+              <div class="social__icon">
+                <a href=""><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Javascript goes here -->
+    <script>
+      let sideNav = document.getElementById('sideNav');
+        function openNav() {
+            sideNav.style.width = "30%";
+        }
+        function closeNav() {
+            sideNav.style.width = "0px";
+        }
+    </script>
+</body>
+</html>
